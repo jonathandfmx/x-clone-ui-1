@@ -5,7 +5,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import QueryProvider from "@/providers/QueryProvider";
 
 export const metadata: Metadata = {
-  title: "X Clone",
+  title: "Jona Dev X Clone",
   description: "Next.js social media application project",
 };
 
@@ -22,14 +22,5 @@ export default function AppLayout({
         </html>
       </QueryProvider>
     </ClerkProvider>
-    // <html lang="en">
-    //   <body>
-    //     <div className="flex justify-between bg-red-300 sm:bg-blue-300 md:bg-green-300">
-    //       <div className="">Left</div>
-    //       <div className="">{children}</div>
-    //       <div className="">Right</div>
-    //     </div>
-    //   </body>
-    // </html>
   );
 }
